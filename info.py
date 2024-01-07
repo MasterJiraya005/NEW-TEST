@@ -51,7 +51,6 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/The_Happy_Hours")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'f8dc2c7c96b1e397c00bcf9118a9faa0e4dba966')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', '0')
