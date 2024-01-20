@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22167428'))
 API_HASH = environ.get('API_HASH', 'f936053286f724b8a1df69729b28a6af')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6695527313:AAE7ALN-vsKPp4FmuOVF3HLdnCJREUNPuNg")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6662678684:AAGIlfa5eAkeBHQ6WebDKL1aUtHsC-juZks")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -29,8 +29,8 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/ad6b62b43581349
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/f147e38021227227bbc78.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1674380302').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001867538832').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1991522624 1397005911').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001992075364').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -60,13 +60,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/JangraMoviesGroup')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/JangraMovies213')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/JangraMovies213')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002139657732'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'HMmedia_movies_group')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002101274197'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'JangraMoviesGroup')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
