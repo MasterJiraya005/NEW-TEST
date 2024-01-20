@@ -4,7 +4,7 @@ class script(object):
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ
 
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/">123</a></b> 😏</b>"""
+ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/SombirJanGra213">JanGra Movies</a></b>"""
 
     
     HELP_TXT = """<b>Hᴇʏ {}
@@ -12,7 +12,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/HMmediaacontact_bot'>Ⱡʉ₵ł₣ɇɽ 🇮🇳</a>
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/SombirJanGra213'>Sombir JanGra</a>
  📚 ʟɪʙʀᴀʀʏ : Who Care 
  📝 ʟᴀɴɢᴜᴀɢᴇ : Hindi
  ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : Free wala
@@ -195,9 +195,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href=https://t.me/HMmedia_movies_group>{file_name}</a></b>"""
+    CAPTION = """<b><a href=https://t.me/JangraMoviesGroup>{file_name}</a></b>"""
 
-    IMDB_TEMPLATE_TXT = """🍿 Title: <a href={url}>{title}</a>\n🎃 Genres: {genres}\n📅 Year: <a href={url}/releaseinfo>{year}</a>\n⭐ Rating: <a href={url}/ratings>{rating}</a> / 10\n🔉 Audio: हिंदी + English\n\n📕 Story: """
+    IMDB_TEMPLATE_TXT = """🍿 Title: <a href={url}>{title}</a>\n🎃 Genres: {genres}\n📅 Year: <a href={url}/releaseinfo>{year}</a>\n⭐ Rating: <a href={url}/ratings>{rating}</a> / 10"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
