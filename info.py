@@ -29,7 +29,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/2b2ebbfa4587add7
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2b2ebbfa4587add78c33c.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1991522624 1397005911').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1991522624 6841063536 1397005911').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001992075364').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -46,7 +46,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Hmmedia:hmmedia@hmmedia0.lttkndx.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "PAIDBOT")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Jangra")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
