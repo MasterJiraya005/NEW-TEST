@@ -18,7 +18,7 @@
     "website": "https://github.com/Singhsawan/PM-Shortner-Bot",
     "repository": "https://github.com/Singhsawan/PM-Shortner-Bot",
     "env": {
-        "BOT_TOKEN": {
+        "BOT_TOKEN: {
             "description": "Your bot token.",
 "value":"6624330389:AAF2SF3vWP4VztPPdZAF8o6yQIOov8QlnpY",
             "required": true
